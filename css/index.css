@@ -1,0 +1,28 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+    background-color: #fbfffb;
+}
+
+.navImg {
+    display: inline-flex;
+    width: 100px;
+    padding-right: 1000px;
+    
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-gap: 50px;
+}
+
+nav a {
+    font-size: 1.8rem;
+    margin: 1rem;
+
+}
+
+h1{
+    color:#fbfffb;
+}
