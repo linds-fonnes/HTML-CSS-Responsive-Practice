@@ -28,12 +28,13 @@ nav {
 }
 
 nav img {
-  width: 7.5rem;
+  width: 8rem;
 }
 
 .links {
   align-content: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  margin-right: 3%;
 }
 
 .links a {
@@ -71,7 +72,7 @@ header div {
 }
 
 header button {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #266035;
   padding: 1.8%;
 }
@@ -293,4 +294,94 @@ footer img {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.5rem;
   margin-right: 1%;
+}
+
+/* MEDIA QUERIE STYLES */
+@media (max-width: 840px) {
+  nav img {
+    width: 5rem;
+  }
+  .links {
+    font-size: 1.4rem;
+  }
+
+  header {
+    font-size: 3rem;
+    height: 60vh;
+  }
+
+  header button {
+    font-size: 1.3rem;
+  }
+
+  .ourStory {
+    height: 60vh;
+    font-size: 1.4rem;
+    background-position: right;
+  }
+  .ourStory h2 {
+    font-size: 3rem;
+    padding-right: 8%;
+  }
+  .ourPlants {
+    font-size: 3rem;
+  }
+  .succulents {
+    height: 40vh;
+  }
+  .succulents h3 {
+    font-size: 2.1rem;
+  }
+  .succulents p {
+    font-size: 1.2rem;
+    width: 75%;
+  }
+  .succulents button {
+    font-size: 1.2rem;
+  }
+  .cacti {
+    height: 40vh;
+  }
+  .cacti h3 {
+    font-size: 2.1rem;
+  }
+  .cacti p {
+    font-size: 1.2rem;
+    width: 75%;
+  }
+  .cacti button {
+    font-size: 1.2rem;
+  }
+  .tropicals {
+    height: 40vh;
+  }
+  .tropicals h3 {
+    font-size: 2.1rem;
+  }
+  .tropicals p {
+    font-size: 1.2rem;
+    width: 75%;
+  }
+  .tropicals button {
+    font-size: 1.2rem;
+  }
+  footer h2 {
+    font-size: 3rem;
+  }
+  .addressInfo {
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+  }
+  .copyright {
+    font-size: 1.2rem;
+  }
+  .mainDiv {
+    height: 40vh;
+  }
+  footer img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
 }
