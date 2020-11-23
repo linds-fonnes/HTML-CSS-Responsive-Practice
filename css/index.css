@@ -1,6 +1,107 @@
+/* font-family: 'Oxygen', sans-serif
+font-family: 'Source Sans Pro', sans-serif; */
 * {
   border: 3px solid red;
 }
 body {
   font-size: 62.5%;
+  background-color: #fbfffb;
+}
+
+/*NAV BAR STYLES*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Oxygen", sans-serif;
+  background-color: #fbfffb;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+}
+
+nav img {
+  width: 7.5rem;
+}
+
+.links {
+  align-content: center;
+  font-size: 2.5rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: #266035;
+  margin: 2rem;
+}
+
+/*HEADER STYLES*/
+header {
+  background-image: url("/images/header.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  font-family: "Oxygen", sans-serif;
+  font-size: 4rem;
+  color: white;
+  height: 90vh;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+}
+
+header button {
+  font-size: 1.8rem;
+  color: #266035;
+  padding: 1.8%;
+}
+
+header button:hover {
+  color: white;
+  background-color: #266035;
+}
+
+/* OUR STORY SECTION STYLES */
+
+.ourStory {
+  background-image: url("/images/about-img.jpg");
+  background-size: cover;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-items: center;
+  height: 90vh;
+}
+
+.ourStory h2 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 3.8rem;
+  color: #266035;
+  margin-top: 15%;
+  padding-right: 15%;
+}
+
+.ourStory p {
+  display: flex;
+  width: 40%;
+  text-align: justify;
+  padding: 3%;
 }
