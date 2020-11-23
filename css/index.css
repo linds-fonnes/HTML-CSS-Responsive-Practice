@@ -1,8 +1,8 @@
 /* font-family: 'Oxygen', sans-serif
 font-family: 'Source Sans Pro', sans-serif; */
-* {
+/* * {
   border: 3px solid red;
-}
+} */
 body {
   font-size: 62.5%;
   background-color: #fbfffb;
@@ -51,6 +51,11 @@ header {
   font-size: 4rem;
   color: white;
   height: 90vh;
+}
+
+header section {
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -107,50 +112,41 @@ header button:hover {
 }
 
 /* OUR PLANTS SECTION STYLES*/
-/* SUCCULENTS STYLES */
-
-.succulents {
-}
-
-.succulents div {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.succulentsText {
-  align-content: flex-end;
-  position: relative;
-  bottom: 32rem;
-  margin-right: 5%;
-}
-.succulents h2 {
+.ourPlants {
   font-size: 3.8rem;
   font-family: "Oxygen", sans-serif;
   color: #266035;
   text-align: center;
   margin-left: 5%;
 }
+/* SUCCULENTS STYLES */
+.succulents {
+  display: flex;
+  height: 60vh;
+  /* flex-direction: row-reverse; */
+}
+
+.succulents div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
 
 .succulents img {
-  width: 45%;
+  width: 50%;
+}
+
+.succulents p {
+  width: 50%;
+  font-size: 1.7rem;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .succulents h3 {
   font-family: "Oxygen", sans-serif;
   font-size: 3rem;
   color: #266035;
-  width: 30%;
-  text-align: center;
-  align-self: center;
-}
-
-.succulents p {
-  width: 40%;
-  font-size: 1.7rem;
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 1%;
-  align-self: center;
 }
 
 .succulents button {
@@ -159,6 +155,142 @@ header button:hover {
   background-color: #266035;
   font-size: 1.7rem;
   padding: 1.3%;
-  width: 15%;
-  align-self: center;
+}
+
+/* CACTI STYLES */
+
+.cacti {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 60vh;
+}
+
+.cacti div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
+
+.cacti img {
+  width: 50%;
+}
+
+.cacti p {
+  width: 50%;
+  font-size: 1.7rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.cacti h3 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 3rem;
+  color: #266035;
+}
+
+.cacti button {
+  font-family: "Oxygen", sans-serif;
+  color: white;
+  background-color: #266035;
+  font-size: 1.7rem;
+  padding: 1.3%;
+}
+
+/* TROPICALS STYLING */
+.tropicals {
+  display: flex;
+  height: 60vh;
+  margin-bottom: 0;
+}
+
+.tropicals div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
+
+.tropicals img {
+  width: 50%;
+}
+
+.tropicals p {
+  width: 50%;
+  font-size: 1.7rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.tropicals h3 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 3rem;
+  color: #266035;
+}
+
+.tropicals button {
+  font-family: "Oxygen", sans-serif;
+  color: white;
+  background-color: #266035;
+  font-size: 1.7rem;
+  padding: 1.3%;
+}
+
+/* CONTACT US STYLES */
+
+footer {
+  background-color: #266035;
+  margin-top: 0;
+}
+
+footer h2 {
+  font-size: 3.8rem;
+  text-align: center;
+  color: white;
+  font-family: "Oxygen", sans-serif;
+  padding-top: 2%;
+}
+
+footer h3 {
+  color: white;
+  font-family: "Oxygen", sans-serif;
+}
+
+.footerImg {
+  width: 30%;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+}
+
+footer img {
+  width: 78%;
+}
+
+.addressInfo {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
+
+.addressInfo a {
+  text-decoration: none;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50vh;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row-reverse;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  margin-right: 1%;
 }
